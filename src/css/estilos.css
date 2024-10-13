@@ -7,7 +7,7 @@ body{
     
     font-family: "Poppins", sans-serif;
     margin: 0 auto;
-    max-width: 1120px;
+    max-width: 1520px;
     background: linear-gradient(150deg, #000000, #9e00ff);
     background-size: 120% 120%;
     
@@ -60,8 +60,7 @@ body{
     justify-content: space-between;    
 }
 
-.home .informacoes{
-  
+.home .informacoes{  
     display: flex;
     flex-direction: column;
     gap: 15px;
@@ -106,10 +105,11 @@ body{
 
 .home .container-foto .foto{
     max-width: 450px;
+    max-height: 450px;
     border-radius: 50%;    
 }
 
-.home .container-foto img{
+.home .container-foto img{    
     width: 100%;
     border-radius: 50%;
 }
@@ -133,8 +133,7 @@ body{
     text-transform: uppercase;
 }
 
-.projetos .container-projetos{
-   
+.projetos .container-projetos{   
     display: flex;
     gap: 20px;
     flex-wrap: wrap;
